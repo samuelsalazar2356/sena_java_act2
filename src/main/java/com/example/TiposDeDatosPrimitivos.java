@@ -30,9 +30,7 @@ public class TiposDeDatosPrimitivos {
     }
 
     public static void demostrarValoresPorDefecto() {
-        // En variables locales Java NO permite usarlas sin inicializar.
-        // Pero en atributos (campos) sí existen valores por defecto.
-        // Para mostrarlo de forma simple, usamos una clase interna.
+
         class Demo {
             byte b;
             short s;

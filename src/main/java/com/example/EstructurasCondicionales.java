@@ -34,7 +34,8 @@ public class EstructurasCondicionales {
     }
 
     public static void ejemploSwitch() {
-        int dia = 3; // 1..7
+        int dia = 3;
+
         String nombre;
 
         switch (dia) {
@@ -68,7 +69,7 @@ public class EstructurasCondicionales {
     }
 
     public static void ejemploSwitchExpression() {
-        // Para ser compatible con versiones comunes, lo haremos con switch normal.
+
         int entrada = 5;
         String valor;
 

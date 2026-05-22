@@ -10,7 +10,7 @@ public class EstructurasDeRepeticion {
     }
 
     public static void ejemploDoWhile() {
-        // Sin depender de entrada del usuario, usamos un arreglo de ejemplo.
+
         int[] intentos = {3, 7, 0};
         int i = 0;
         int numero;
@@ -33,7 +33,7 @@ public class EstructurasDeRepeticion {
     }
 
     public static void ejemploForAnidado() {
-        // Tabla de multiplicar completa (por ejemplo del 1 al 5)
+
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= 10; j++) {
                 System.out.println(i + " x " + j + " = " + (i * j));
@@ -44,14 +44,15 @@ public class EstructurasDeRepeticion {
     public static void ejemploBreakContinue() {
         for (int i = 1; i <= 10; i++) {
             if (i == 7) {
-                break; // saltamos el resto cuando llega al 7
+                break;
+
             }
             System.out.println("i: " + i);
         }
     }
 
     public static void ejemploEtiquetas() {
-        // Ejemplo básico con etiqueta (solo demostrativo)
+
         int[][] matriz = {
                 {1, 2, 3},
                 {4, 5, 6}

@@ -4,7 +4,7 @@ public class ArreglosBidimensionales {
     public static void declararCrearMatrices() {
         int[][] matriz = new int[3][3];
 
-        // Llenamos con valores de ejemplo
+
         int contador = 1;
         for (int fila = 0; fila < 3; fila++) {
             for (int col = 0; col < 3; col++) {
@@ -35,7 +35,7 @@ public class ArreglosBidimensionales {
     }
 
     public static void ejemploUsosTipicos() {
-        // Un ejemplo extra: mostrar coordenadas y valores
+
         int[][] tabla = {
                 {10, 20, 30},
                 {40, 50, 60},

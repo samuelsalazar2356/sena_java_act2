@@ -22,7 +22,6 @@ public class VariablesYConstantes {
 
         System.out.println("PI: " + PI);
 
-        // PI = 4.0; // Esto no compila porque PI es final.
-        // En una constante final no se puede reasignar.
+
     }
 }

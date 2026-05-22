@@ -25,7 +25,7 @@ public class ManejoBasicoExcepciones {
         } catch (InputMismatchException e) {
             System.out.println("Error: debes ingresar un entero.");
         } finally {
-            // Cerramos el scanner como pide el ejercicio (aunque normalmente no siempre se recomienda)
+
             sc.close();
         }
     }
@@ -33,7 +33,8 @@ public class ManejoBasicoExcepciones {
     public static void ejemploBloqueFinally() {
         try {
             int[] datos = {1, 2, 3};
-            System.out.println(datos[5]); // provoca ArrayIndexOutOfBoundsException
+            System.out.println(datos[5]);
+
         } catch (Exception e) {
             System.out.println("Ocurrió un error: " + e.getClass().getSimpleName());
         } finally {
@@ -44,5 +45,6 @@ public class ManejoBasicoExcepciones {
     public static void evitarCierrePrograma() {
    
         System.out.println("Ejemplo: evitamos cerrar el programa con System.exit.");
+
     }
 }

@@ -18,7 +18,7 @@ public class MetodosEstaticosSimples {
         return suma;
     }
 
-    // Sobrecarga simple: sumar con diferentes tipos
+
     public static void ejemploSobrecarga() {
         int resultado = sumar(3, 4);
         System.out.println("Sumar int: " + resultado);

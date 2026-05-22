@@ -12,11 +12,11 @@ public class Operadores {
 
     public static void demostrarIncrementoDecremento() {
         int i = 5;
-        System.out.println("i++ (imprime antes): " + i++); // imprime 5 y luego incrementa
+        System.out.println("i++ (imprime antes): " + i++);
         System.out.println("Luego de i++: i=" + i);
 
         i = 5;
-        System.out.println("++i (incrementa antes): " + ++i); // incrementa y luego imprime
+        System.out.println("++i (incrementa antes): " + ++i);
         System.out.println("Luego de ++i: i=" + i);
     }
 
@@ -38,10 +38,10 @@ public class Operadores {
 
     public static void demostrarAsignacionCompuesta() {
         int a = 10;
-        a += 5; // a = a + 5
+        a += 5;
         System.out.println("a += 5: " + a);
 
-        a -= 2; // a = a - 2
+        a -= 2;
         System.out.println("a -= 2: " + a);
     }
 

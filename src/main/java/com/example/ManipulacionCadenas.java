@@ -12,7 +12,7 @@ public class ManipulacionCadenas {
     public static void demostrarMetodosUtiles() {
         String frase = "   Programacion   Java   ";
 
-        String sinEspacios = frase.trim(); // quita espacios al inicio y al final
+        String sinEspacios = frase.trim();
         String reemplazo = sinEspacios.replace("Java", "Mundo Java");
         String[] palabras = reemplazo.split("\\s+");
 
@@ -30,7 +30,7 @@ public class ManipulacionCadenas {
         String texto1 = "Hola";
         String texto2 = texto1;
 
-        texto1 = texto1 + " Mundo"; // crea un objeto nuevo
+        texto1 = texto1 + " Mundo";
 
         System.out.println("texto2 (original): " + texto2);
         System.out.println("texto1 (modificado): " + texto1);

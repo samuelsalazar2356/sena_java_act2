@@ -34,7 +34,7 @@ public class ArreglosUnidimensionales {
     }
 
     public static int[] arrayComoParametroYRetorno(int[] array) {
-        // Retorno de un arreglo invertido
+
         int[] invertido = new int[array.length];
 
         for (int i = 0; i < array.length; i++) {
