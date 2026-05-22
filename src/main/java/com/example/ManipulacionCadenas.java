@@ -2,18 +2,49 @@ package com.example;
 
 public class ManipulacionCadenas {
     public static void demostrarConcatenacion() {
-        // TODO
+        String a = "Hola";
+        String b = "Java";
+        String c = a + " " + b;
+
+        System.out.println(c);
     }
 
     public static void demostrarMetodosUtiles() {
-        // TODO
+        String frase = "   Programacion   Java   ";
+
+        String sinEspacios = frase.trim(); // quita espacios al inicio y al final
+        String reemplazo = sinEspacios.replace("Java", "Mundo Java");
+        String[] palabras = reemplazo.split("\\s+");
+
+        System.out.println("Original: [" + frase + "]");
+        System.out.println("trim: [" + sinEspacios + "]");
+        System.out.println("reemplazo: " + reemplazo);
+
+        System.out.println("Palabras:");
+        for (int i = 0; i < palabras.length; i++) {
+            System.out.println(palabras[i]);
+        }
     }
 
     public static void demostrarInmutabilidad() {
-        // TODO
+        String texto1 = "Hola";
+        String texto2 = texto1;
+
+        texto1 = texto1 + " Mundo"; // crea un objeto nuevo
+
+        System.out.println("texto2 (original): " + texto2);
+        System.out.println("texto1 (modificado): " + texto1);
+
+        System.out.println("¿Misma referencia? " + (texto1 == texto2));
     }
 
     public static void usarStringBuilder() {
-        // TODO
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("Este es un párrafo muy largo.");
+        sb.append(" Lo construimos con StringBuilder.");
+        sb.append(" Funciona mejor para muchas concatenaciones.");
+
+        System.out.println(sb.toString());
     }
 }

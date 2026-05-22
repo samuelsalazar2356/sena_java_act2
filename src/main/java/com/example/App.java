@@ -3,7 +3,7 @@ package com.example;
 public class App {
     public static void main(String[] args) {
         // 1. Variables y Constantes
-        System.out.println("--- Tema: VariablesYConstantes ---");
+        System.out.println(" Tema: Variables Y Constantes ");
         VariablesYConstantes.demostrarDeclaracionAsignacion();
         VariablesYConstantes.demostrarConvencionesNombres();
         VariablesYConstantes.demostrarConstantes();
